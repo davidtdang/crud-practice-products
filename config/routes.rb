@@ -9,6 +9,9 @@ Rails.application.routes.draw do
 
   get 'show' => 'products#show'
 
+  get 'delete' => 'products#index'
+
+
   resources :products
 
   # Example of regular route:
